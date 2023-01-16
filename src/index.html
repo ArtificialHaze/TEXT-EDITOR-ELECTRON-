@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self';" /> -->
+    <title>Practice</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="title-bar">
+      <span class="document-name" id="document-name">No files selected.</span>
+      <div class="menu-section">
+        <button id="openDocument"><i class="fas fa-plus"></i></button>
+        <button id="createDocument"><i class="fas fa-link"></i></button>
+      </div>
+    </div>
+    <main>
+      <textarea id="fileTextArea" disabled></textarea>
+    </main>
+  </body>
+  <script defer src="./render.js"></script>
+</html>
